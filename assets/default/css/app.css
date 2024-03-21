@@ -15831,18 +15831,6 @@ p {
   }
 }
 
-.gradient-box {
-  direction: ltr;
-  position: absolute !important;
-  border-radius: 30px;
-  background-image: linear-gradient(to bottom, #9effc1, var(--primary));
-}
-@media (max-width: 767px) {
-  .gradient-box {
-    border-radius: 10px;
-  }
-}
-
 .subscribes-container .left-gradient-box {
   top: 13% !important;
   left: 1% !important;
