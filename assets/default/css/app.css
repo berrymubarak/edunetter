@@ -15965,16 +15965,7 @@ p {
   margin-top: 105px;
   pointer-events: none;
 }
-.testimonials-container .testimonials-card .bottom-gradient {
-  position: absolute;
-  top: unset;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  border-radius: 0 0 10px 10px;
-  height: 11px;
-  background: linear-gradient(to left, #9effc1, var(--primary));
-}
+
 .testimonials-container .testimonials-card .testimonials-user-avatar {
   position: absolute;
   top: -40px;
