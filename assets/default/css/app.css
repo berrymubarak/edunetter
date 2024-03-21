@@ -15317,7 +15317,7 @@ p {
   font-size: 14px;
 }
 .footer ul li a {
-  color: #ffffff !important;
+  color: #000 !important;
 }
 .footer ul li.header {
   font-size: 16px;
