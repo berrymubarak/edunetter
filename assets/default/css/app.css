@@ -15636,13 +15636,6 @@ p {
   color: #818894;
   pointer-events: none;
 }
-.stats-container .stats-item:hover {
-  background-color: var(--secondary);
-}
-.stats-container .stats-item:hover .stat-number, .stats-container .stats-item:hover .stat-title, .stats-container .stats-item:hover .stat-desc {
-  color: #ffffff;
-  transition: all 0.5s ease;
-}
 
 .swiper-pagination {
   bottom: -50px;
