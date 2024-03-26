@@ -14887,6 +14887,10 @@ p {
   }
 }
 
+.menu-navbar .dropdown .dropdown-toggle:after {
+  display: none;
+}
+
 .language-select .dropdown-menu {
   padding: 20px;
   min-width: 15rem;
