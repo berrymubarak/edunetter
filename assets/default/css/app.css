@@ -15292,7 +15292,6 @@ p {
   position: relative;
   top: -100px;
   height: 200px;
-  background-image: url("/assets/default/img/footer/pattern.png");
   background-color: var(--primary);
   border-radius: 15px;
   padding: 25px;
