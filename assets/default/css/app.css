@@ -16487,7 +16487,7 @@ p {
 .webinar-card {
   position: relative;
   border-radius: 10px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 .webinar-card .image-box {
   position: relative;
@@ -16740,8 +16740,9 @@ p {
   }
 }
 .webinar-card:hover {
-  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
+
 .webinar-card .webinar-icon {
   color: var(--secondary);
 }
