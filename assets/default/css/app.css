@@ -16486,18 +16486,16 @@ p {
 
 .webinar-card {
   position: relative;
-  border-radius: 15px;
-  box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.1);
-  background-color: #ffffff;
-  transition: all 0.5s ease;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);  background-color: #ffffff;
 }
 .webinar-card .image-box {
   position: relative;
   width: 100%;
-  height: 250px;
+  height: 200px;
 }
 .webinar-card .image-box img {
-  border-radius: 15px 15px 0 0;
+  border-radius: 10px 10px 0 0;
 }
 .webinar-card .image-box::after {
   content: "";
