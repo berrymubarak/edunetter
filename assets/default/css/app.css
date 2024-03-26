@@ -2294,7 +2294,6 @@ a.badge-gray100:focus, a.badge-gray100.focus {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 20px;
 }
 .navbar .container,
 .navbar .container-fluid,
