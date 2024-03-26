@@ -15291,7 +15291,6 @@ p {
 .footer .footer-subscribe {
   position: relative;
   top: -100px;
-  height: 200px;
   background-color: var(--primary);
   border-radius: 15px;
   padding: 25px;
