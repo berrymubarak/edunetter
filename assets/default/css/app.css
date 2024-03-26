@@ -2621,7 +2621,7 @@ a.badge-gray100:focus, a.badge-gray100.focus {
   border-color: rgba(52, 52, 52, 0.1);
 }
 .navbar-light .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2852, 52, 52, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  background-image: url("https://cdn.edunetter.com/assets/default/img/icons/grid.svg");
 }
 .navbar-light .navbar-text {
   color: rgba(52, 52, 52, 0.5);
