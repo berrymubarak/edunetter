@@ -16221,8 +16221,6 @@ p {
 .find-instructor-section .find-instructor-section-hero {
   max-width: 400px;
   max-height: 460px;
-  border-radius: 40px 4px 40px 4px;
-  box-shadow: 0 30px 60px 0 rgba(1, 11, 60, 0.14);
 }
 .find-instructor-section .find-instructor-section-circle, .find-instructor-section .find-instructor-section-dots {
   position: absolute;
