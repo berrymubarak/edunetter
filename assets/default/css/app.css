@@ -16666,12 +16666,13 @@ p {
   text-decoration: line-through;
 }
 .webinar-card .webinar-card-body .webinar-title {
-   overflow: hidden;
-   text-overflow: ellipsis;
-   display: -webkit-box;
-   -webkit-line-clamp: 2; /* number of lines to show */
-           line-clamp: 2;
-   -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            line-height: 16px;
+            max-height: 32px; /* For 2 lines */
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
 }
 .webinar-card .duration, .webinar-card .date-published {
   font-weight: 500;
