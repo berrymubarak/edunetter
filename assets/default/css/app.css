@@ -16666,7 +16666,6 @@ p {
   text-decoration: line-through;
 }
 .webinar-card .webinar-card-body .webinar-title {
-  height: 48px;
   text-overflow: ellipsis;
   overflow: hidden;
 }
