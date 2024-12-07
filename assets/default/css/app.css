@@ -15830,14 +15830,14 @@ p {
 
 .home-sections {
   position: relative;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 .home-sections:first-child {
   margin-top: 80px;
 }
 @media (max-width: 991px) {
   .home-sections {
-    margin-top: 80px;
+    margin-top: 10px;
   }
 }
 .home-sections .section-title {
@@ -15848,11 +15848,11 @@ p {
   pointer-events: none;
 }
 @media (max-width: 991px) {
-  .home-sections .section-title {
+  . .section-title {
     font-size: 18px;
   }
 }
-.home-sections .section-hint {
+. .section-hint {
   margin-top: 5px;
   font-size: 14px;
   font-weight: normal;
