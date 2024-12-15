@@ -1,7 +1,7 @@
 .search-box {
   display: inline-block;
   width: 100%;
-  border-radius: 3px;
+  border-radius: 20px;
   padding: 0px 55px 0px 15px;
   margin: 5px 0px 5px 0px;
   position: relative;
@@ -29,7 +29,7 @@
   right: 2px;
   top: 2px;
   color: #aaa;
-  border-radius: 3px;
+  border-radius: 20px;
   font-size: 21px;
   padding: 0px 5px 0px;
   height: 35px;
@@ -38,6 +38,7 @@
   transition: all 200ms ease-in-out;
 }
 .search-box .search-btn:hover {
+  border-radius: 20px;
   color: #fff;
   background-color: #8FBE00;
 }
