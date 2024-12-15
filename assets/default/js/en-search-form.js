@@ -2,7 +2,7 @@
 // Would like to make CSS only
 
 let searchWrapper = document.querySelector('.en-search-wrapper'),
-    searchInput = document.querySelector('.search-input');
+    searchInput = document.querySelector('.en-search-input');
 
 document.addEventListener('click', (e) => {
   if (~e.target.className.indexOf('search')) {
