@@ -1,14 +1,35 @@
-// Quick proof of concept
-// Would like to make CSS only
+$(function () {
+  var initButton = $("#init-button"),
+    app = $("#app"),
+    form = $("#form"),
+    searchInput = $("#search-input"),
+    rcBtns = $("#r-btn, #c-btn"),
+    submitButton = $("#submit-button");
 
-let searchWrapper = document.querySelector('.en-search-wrapper'),
-    searchInput = document.querySelector('.en-search-input');
+  function initApp() {
+    app.toggleClass("active");
 
-document.addEventListener('click', (e) => {
-  if (~e.target.className.indexOf('search')) {
-    searchWrapper.classList.add('focused');
-    searchInput.focus();
-  } else {
-    searchWrapper.classList.remove('focused');
+    if (form.hasClass("active")) form.removeClass("active");
+    else {
+      setTimeout(function () {
+        form.addClass("active");
+      }, 40);
+      setTimeout(function () {
+        searchInput.focus();
+      }, 600);
+    }
   }
-})
+
+  function checkInput() {
+    if ($(this).val().trim().length > 0) {
+      rcBtns.addClass("change");
+      submitButton.addClass("active");
+    } else {
+      rcBtns.removeClass("change");
+      submitButton.removeClass("active");
+    }
+  }
+
+  initButton.on("click", initApp);
+  searchInput.on("keyup", checkInput);
+});
