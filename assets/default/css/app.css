@@ -40,7 +40,7 @@
 .search-box .search-btn:hover {
   border-radius: 20px;
   color: #fff;
-  background-color: #8FBE00;
+  background-color: #004aad;
 }
 
 @media (max-width: 768px) {
