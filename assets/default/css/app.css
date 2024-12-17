@@ -15968,10 +15968,10 @@ p {
 }
 
 .user-inline-avatar .avatar {
-  width: 40px;
-  max-width: 40px;
-  min-width: 40px;
-  height: 40px;
+  width: 20px;
+  max-width: 20px;
+  min-width: 20px;
+  height: 20px;
   border-radius: 50%;
 }
 .user-inline-avatar .avatar img {
