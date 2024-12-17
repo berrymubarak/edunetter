@@ -16689,7 +16689,7 @@ p {
 .webinar-card {
   position: relative;
   border-radius: 10px;
-  min-height: 390px;
+  min-height: 370px;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
 .webinar-card .image-box {
