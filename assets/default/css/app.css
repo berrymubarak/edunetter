@@ -20,6 +20,7 @@
 .banner-slider{
 	height: 25vw;
 	overflow: hidden;
+	background: bluesky;
 }
 /* -------------------------------------------------------- slide */
 .banner-slider > ul {
