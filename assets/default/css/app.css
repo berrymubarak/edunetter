@@ -20,7 +20,7 @@
 .banner-slider{
 	height: 25vw;
 	overflow: hidden;
-	background: bluesky;
+	background: skyblue;
 }
 /* -------------------------------------------------------- slide */
 .banner-slider > ul {
@@ -122,8 +122,7 @@
 	width: 1vw;
 	height: 1vw;
 	border-radius: 50%;
-
-	background-color: #FFF;
+	background-color: #919eab;
 }
 .banner-slider > #input-slide-0:checked ~ .banner-slider-dot > label.slide-0,
 .banner-slider > #input-slide-1:checked ~ .banner-slider-dot > label.slide-1,
