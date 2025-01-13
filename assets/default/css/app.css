@@ -16701,16 +16701,7 @@ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 .webinar-card .image-box img {
   border-radius: 10px 10px 0 0;
 }
-.webinar-card .image-box::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 60%;
-  bottom: 0;
-  background-image: linear-gradient(to bottom, rgba(6, 6, 6, 0), rgba(0, 0, 0, 0.8));
-  z-index: 1;
-}
+
 .webinar-card .image-box .badges-lists {
   position: absolute;
   top: 0;
