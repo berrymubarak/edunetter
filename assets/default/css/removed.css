@@ -8,3 +8,13 @@
   background-image: linear-gradient(to bottom, rgba(6, 6, 6, 0), rgba(0, 0, 0, 0.8));
   z-index: 1;
 }
+
+.trending-card:hover {
+  transform: translateY(-25px);
+  transition: all 0.5s ease;
+}
+.trending-card:hover .item-count {
+  background-color: var(--secondary);
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
