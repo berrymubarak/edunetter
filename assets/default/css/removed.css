@@ -18,3 +18,18 @@
   color: #ffffff;
   transition: all 0.5s ease;
 }
+
+.find-instructor-section .find-instructor-section-circle, .find-instructor-section .find-instructor-section-dots {
+  position: absolute;
+  z-index: -1;
+}
+.find-instructor-section .find-instructor-section-circle {
+  top: -50px;
+  right: 10%;
+}
+
+.find-instructor-section .find-instructor-section-dots {
+  bottom: -25px;
+  left: -30px;
+  animation: hero-dot 5s linear 0s infinite alternate;
+}
