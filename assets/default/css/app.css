@@ -16190,15 +16190,7 @@ p {
   line-height: 1.19;
   color: #171347;
 }
-.trending-card:hover {
-  transform: translateY(-25px);
-  transition: all 0.5s ease;
-}
-.trending-card:hover .item-count {
-  background-color: var(--secondary);
-  color: #ffffff;
-  transition: all 0.5s ease;
-}
+
 @media (max-width: 767px) {
   .trending-card .trending-image {
     padding: 25px;
