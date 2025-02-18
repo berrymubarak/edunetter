@@ -4528,6 +4528,30 @@ textarea.form-control {
   justify-content: center;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
+
+.btn2 {
+  display: inline-block;
+  font-weight: 400;
+  color: #343434;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding-right: 32px;
+  padding-left: 32px;
+  font-size: 0.875rem;
+  border-radius: 8px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .btn {
     transition: none;
@@ -5367,6 +5391,17 @@ fieldset:disabled a.btn-small {
   padding-right: 16px;
   padding-left: 16px;
   height: 36px;
+  font-size: 1rem;
+  border-radius: 8px;
+  font-weight: normal;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-sm2, .btn-group-sm > .btn2 {
+  padding-right: 16px;
+  padding-left: 16px;
   font-size: 1rem;
   border-radius: 8px;
   font-weight: normal;
