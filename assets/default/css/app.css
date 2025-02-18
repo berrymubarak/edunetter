@@ -15481,7 +15481,7 @@ p {
 }
 
 .login-container {
-  margin: 50px 0 50px;
+  margin: 20px 0 20px;
   border-radius: 15px;
   border: solid 1px #ececec;
 }
@@ -15490,7 +15490,7 @@ p {
 }
 @media (max-width: 991px) {
   .login-container {
-    margin: 50px 0 50px;
+    margin: 20px 0 20px;
   }
 }
 
