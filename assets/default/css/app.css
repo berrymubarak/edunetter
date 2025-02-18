@@ -15500,6 +15500,12 @@ p {
     }
 }
 
+@media (max-width: 576px) {
+    .tips-box {
+        display: none;
+    }
+}
+
 .login-card {
   padding: 35px 35px;
 }
