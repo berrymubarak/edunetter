@@ -15494,6 +15494,12 @@ p {
   }
 }
 
+@media (max-width: 576px) {
+    .login-container {
+        border: 0px;
+    }
+}
+
 .login-card {
   padding: 35px 35px;
 }
